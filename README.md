@@ -3,9 +3,11 @@
 ## How prompt format affects model output accuracy: 
   https://arxiv.org/pdf/2310.11324
 
-
 ## Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
   https://arxiv.org/abs/2201.11903
+
+## Tree of Thoughts: Deliberate Problem Solving with Large Language Models
+  https://arxiv.org/abs/2305.10601
 
 ## Self-Consistency Improves Chain of Thought Reasoning in Language Models
   https://arxiv.org/abs/2203.11171
@@ -13,19 +15,20 @@
 ## Chain-of-Verification Reduces Hallucination in Large Language Models
    https://arxiv.org/pdf/2309.11495
    
-  Step 1: 初始响应生成
-  模型直接回答用户问题（可能含幻觉）。
+  Step 1: Initial Response Generation  
+  The model directly answers the user’s question (which may contain hallucinations).
   
-  Step 2: 生成验证问题
-  基于初始回答，自动设计一组验证性问题（例如：
-  初始回答："阿尔伯特·爱因斯坦获得1921年诺贝尔物理学奖"
-  验证问题："爱因斯坦因什么工作获奖？获奖年份是否在1900-1950年间？"）。
+  Step 2: Generate Verification Questions  
+  Based on the initial answer, automatically design a set of verification questions (for example:  
+  Initial answer: “Albert Einstein won the 1921 Nobel Prize in Physics.”  
+  Verification questions: “For what work did Einstein receive the award? Was the award year between 1900 and 1950?”).
   
-  Step 3: 隔离执行验证
-  在独立上下文中逐条回答验证问题（避免初始错误污染），强制模型检索事实依据。
+  Step 3: Isolated Verification Execution  
+  Answer each verification question in an independent context (to avoid contamination from initial errors), forcing the model to retrieve factual evidence.
   
-  Step 4: 对比并修正答案
-  将验证结果与初始回答比对，自动修正矛盾点（如修正年份错误）
+  Step 4: Compare and Revise the Answer  
+  Compare the verification results with the initial answer and automatically correct any inconsistencies (e.g., fixing an incorrect year).
+
 
 ## Scaling Instruction-Finetuned Language Models
   https://arxiv.org/abs/2210.11416
