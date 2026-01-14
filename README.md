@@ -12,6 +12,9 @@
 ## Self-Consistency Improves Chain of Thought Reasoning in Language Models
   https://arxiv.org/abs/2203.11171
 
+## ReAct: Synergizing Reasoning and Acting in Language Models
+  https://arxiv.org/abs/2210.03629
+
 ## Chain-of-Verification Reduces Hallucination in Large Language Models
    https://arxiv.org/pdf/2309.11495
    
