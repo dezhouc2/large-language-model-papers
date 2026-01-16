@@ -35,3 +35,7 @@
 
 ## Scaling Instruction-Finetuned Language Models
   https://arxiv.org/abs/2210.11416
+
+
+## Why Language Models Hallucinate*
+  https://arxiv.org/abs/2509.04664
