@@ -1,5 +1,8 @@
 # Large-language-model-papers
 
+## Why Language Models Hallucinate
+  https://arxiv.org/pdf/2509.04664
+
 ## How prompt format affects model output accuracy: 
   https://arxiv.org/pdf/2310.11324
 
